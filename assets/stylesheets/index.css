@@ -95,3 +95,13 @@ li {
 .version {
   color: #d5d5d5;
 }
+
+.contact {
+  position: absolute;
+  right: 0; bottom: 0;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  color: #aaa;
+}

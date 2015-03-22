@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  background: radial-gradient(#444, #111) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+  font-size: 6em;
+  color: #d5d5d5;
+}
+
+h2 {
+  font-size: 2.25em;
+  color: #aaa;
+}
+
+p {
+  display: block;
+  text-align: center;
+  font-family: Helvetica, arial, sans-serif;
+  color: #aaa;
+}
+
+a {
+  color: #93b41f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 3em;
+  padding: 0px;
+  list-style-type: none;
+  color: #fff;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  width: 10em;
+  text-align: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px; height: 70px;
+  border-radius: 50%;
+  background: #93b41f;
+}
+
+.circle .octicon {
+  font-size: 3em;
+  color: #222;
+}
+
+.service, .version {
+  margin: 0.25em;
+  font-family: 'Inconsolata';
+}
+
+.service {
+  font-size: 1.2em;
+  color: #eee;
+}
+
+.version {
+  color: #d5d5d5;
+}
